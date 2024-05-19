@@ -1,0 +1,32 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    /*stack display-bar on button-container*/
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: dimgrey;
+    /*rounds the border*/
+    padding: 20px;
+    /*puts space around container elements*/
+}
+
+.display-bar {
+    background-color: #222;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    height: 60px;
+    /*adds space inbetween the text*/
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+
+.button-container {
+    display: grid; /* allows buttons to fit nicer */
+    grid-template-columns: repeat(4, 1fr); /*creates 4 columns */
+    gap: 10px; /*puts space between the buttons*/
+}

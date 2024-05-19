@@ -1,0 +1,22 @@
+.button-secondary {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer; /*changes cursor to clicker */
+    background-color: #f1f1f1;
+  }
+
+  .button-primary {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer; /*changes cursor to clicker */
+    background-color: #f94bbc;
+  }
+  
+  .button:active {
+    background-color: #ccc; /*shows the buttons is selected */
+  }
+  
